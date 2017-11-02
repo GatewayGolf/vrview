@@ -3,8 +3,8 @@ var vrView;
 // Scenes for the VR/Interactive Tour of the Clubhouse and Practice Range
 var scenes = {
     lobby: {
-        image: 'images/ggcc-360-lobby.JPG',
-        preview: 'images/ggcc-360-lobby-preview.jpg',
+        image: 'http://gatewaygolf.github.io/vrview/images/ggcc-360-lobby.JPG',
+        preview: 'http://gatewaygolf.github.io/vrview/images/ggcc-360-lobby-preview.jpg',
         hotspots: {
             pro_shop_entrance: {
                 pitch: 0,
@@ -15,8 +15,8 @@ var scenes = {
         }
     },
     pro_shop_entrance: {
-        image: 'images/ggcc-360-proshop-entrance.JPG',
-        preview: 'images/ggcc-360-proshop-entrance-preview.jpg',
+        image: 'http://gatewaygolf.github.io/vrview/images/ggcc-360-proshop-entrance.JPG',
+        preview: 'http://gatewaygolf.github.io/vrview/images/ggcc-360-proshop-entrance-preview.jpg',
         hotspots: {
             lobby: {
                 pitch: 0,
@@ -33,8 +33,8 @@ var scenes = {
         }
     },
     pro_shop: {
-        image: 'images/ggcc-360-proshop.JPG',
-        preview: 'images/ggcc-360-proshop-preview.jpg',
+        image: 'http://gatewaygolf.github.io/vrview/images/ggcc-360-proshop.JPG',
+        preview: 'http://gatewaygolf.github.io/vrview/images/ggcc-360-proshop-preview.jpg',
         hotspots: {
             pro_shop_entrance: {
                 pitch: 0,
@@ -48,8 +48,8 @@ var scenes = {
 
 function onLoad() {
     vrView = new VRView.Player('#vrview', {
-      image: 'images/blank.png',
-      preview: 'images/blank.png',
+      image: 'http://gatewaygolf.github.io/vrview/images/blank.png',
+      preview: 'http://gatewaygolf.github.io/vrview/images/blank.png',
       is_stereo: false,
       is_autopan_off: true
     });
